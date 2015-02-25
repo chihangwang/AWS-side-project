@@ -1,0 +1,7 @@
+[NOTE]
+To run the script, please put the .sh file in the same directory with million_songs_metadata.csv and 
+million_songs_sales.csv. Then simply enter the following command in yout terminal.
+
+bash parse.sh "Johnny Cash" 1970 1983
+
+There you go!

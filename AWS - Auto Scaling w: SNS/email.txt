@@ -1,0 +1,490 @@
+[Launch]
+===================================================================================================
+Service: AWS Auto Scaling
+Time: 2014-10-05T15:58:14.554Z
+RequestId: f8e2c6cb-7cf7-455e-a404-832e3671fdf3
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: f8e2c6cb-7cf7-455e-a404-832e3671fdf3
+Description: Launching a new EC2 instance: i-c8375d26
+Cause: At 2014-10-05T15:57:38Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 3.  At 2014-10-05T15:57:40Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 3.
+StartTime: 2014-10-05T15:57:41.989Z
+EndTime: 2014-10-05T15:58:14.554Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-c8375d26
+Details: {"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T15:58:14.748Z
+RequestId: d3e2be1d-c173-4734-a8e0-330a044dd585
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: d3e2be1d-c173-4734-a8e0-330a044dd585
+Description: Launching a new EC2 instance: i-cb375d25
+Cause: At 2014-10-05T15:57:38Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 3.  At 2014-10-05T15:57:40Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 3.
+StartTime: 2014-10-05T15:57:41.989Z
+EndTime: 2014-10-05T15:58:14.748Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-cb375d25
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T15:58:15.057Z
+RequestId: 1362752d-f461-477b-84b8-b04b6365ac49
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 1362752d-f461-477b-84b8-b04b6365ac49
+Description: Launching a new EC2 instance: i-ca375d24
+Cause: At 2014-10-05T15:57:38Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 3.  At 2014-10-05T15:57:40Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 3.
+StartTime: 2014-10-05T15:57:41.989Z
+EndTime: 2014-10-05T15:58:15.057Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-ca375d24
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:16:47.301Z
+RequestId: fa40a5a4-04c0-48a4-bf8c-02da928f15da
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: fa40a5a4-04c0-48a4-bf8c-02da928f15da
+Description: Launching a new EC2 instance: i-e0056f0e
+Cause: At 2014-10-05T16:16:09Z a monitor alarm scale_up_on_cpu in state ALARM triggered policy scale_up changing the desired capacity from 3 to 4.  At 2014-10-05T16:16:11Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T16:16:14.599Z
+EndTime: 2014-10-05T16:16:47.301Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-e0056f0e
+Details: {"InvokingAlarms":[{"Region":"US - N. Virginia","AWSAccountId":"900670946900","OldStateValue":"OK","AlarmName":"scale_up_on_cpu","AlarmDescription":null,"NewStateReason":"Threshold Crossed: 1 datapoint (96.16000000000001) was greater than the threshold (80.0).","StateChangeTime":1412525769406,"NewStateValue":"ALARM","Trigger":{"Period":60,"Statistic":"AVERAGE","MetricName":"CPUUtilization","Threshold":80,"EvaluationPeriods":1,"Dimensions":[{"name":"AutoScalingGroupName","value":"my_group"}],"Namespace":"AWS/EC2","ComparisonOperator":"GreaterThanThreshold","Unit":null}}],"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:29:53.251Z
+RequestId: 5ab353fb-9089-418b-a2a5-02ff542555e7
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 5ab353fb-9089-418b-a2a5-02ff542555e7
+Description: Launching a new EC2 instance: i-221c76cc
+Cause: At 2014-10-05T16:29:09Z a monitor alarm scale_up_on_cpu in state ALARM triggered policy scale_up changing the desired capacity from 3 to 4.  At 2014-10-05T16:29:12Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T16:29:14.288Z
+EndTime: 2014-10-05T16:29:53.251Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-221c76cc
+Details: {"InvokingAlarms":[{"Region":"US - N. Virginia","AWSAccountId":"900670946900","OldStateValue":"OK","AlarmName":"scale_up_on_cpu","AlarmDescription":null,"NewStateReason":"Threshold Crossed: 1 datapoint (92.90333333333335) was greater than the threshold (80.0).","StateChangeTime":1412526549396,"NewStateValue":"ALARM","Trigger":{"Period":60,"Statistic":"AVERAGE","MetricName":"CPUUtilization","Threshold":80,"EvaluationPeriods":1,"Dimensions":[{"name":"AutoScalingGroupName","value":"my_group"}],"Namespace":"AWS/EC2","ComparisonOperator":"GreaterThanThreshold","Unit":null}}],"Availability Zone":"us-east-1a"
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:31:47.828Z
+RequestId: edd5667d-23cb-4d71-938a-37393a0a635f
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: edd5667d-23cb-4d71-938a-37393a0a635f
+Description: Launching a new EC2 instance: i-9d127873
+Cause: At 2014-10-05T16:31:13Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T16:31:15.382Z
+EndTime: 2014-10-05T16:31:47.828Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-9d127873
+Details: {"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:37:49.047Z
+RequestId: b03e802b-f8ac-4092-a388-def870568c5e
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: b03e802b-f8ac-4092-a388-def870568c5e
+Description: Launching a new EC2 instance: i-5e157fb0
+Cause: At 2014-10-05T16:37:14Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T16:37:16.076Z
+EndTime: 2014-10-05T16:37:49.047Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-5e157fb0
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:59:49.783Z
+RequestId: 150e9349-d7ad-4156-b144-08c970825af6
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 150e9349-d7ad-4156-b144-08c970825af6
+Description: Launching a new EC2 instance: i-847b116a
+Cause: At 2014-10-05T16:59:15Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T16:59:17.156Z
+EndTime: 2014-10-05T16:59:49.783Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-847b116a
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:01:55.708Z
+RequestId: 732732d8-6520-4499-a447-ca96be85f9eb
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 732732d8-6520-4499-a447-ca96be85f9eb
+Description: Launching a new EC2 instance: i-c8781226
+Cause: At 2014-10-05T17:01:16Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:01:23.186Z
+EndTime: 2014-10-05T17:01:55.708Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-c8781226
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:05:54.166Z
+RequestId: 63f06a57-8de3-4397-b60f-4dfad6a168fe
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 63f06a57-8de3-4397-b60f-4dfad6a168fe
+Description: Launching a new EC2 instance: i-96731978
+Cause: At 2014-10-05T17:05:16Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:05:21.411Z
+EndTime: 2014-10-05T17:05:54.166Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-96731978
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:11:53.155Z
+RequestId: 0bac801c-38cb-40fd-a6a1-53613825c072
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 0bac801c-38cb-40fd-a6a1-53613825c072
+Description: Launching a new EC2 instance: i-29761cc7
+Cause: At 2014-10-05T17:11:17Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:11:20.861Z
+EndTime: 2014-10-05T17:11:53.155Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-29761cc7
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:46:12.571Z
+RequestId: 86c64fa2-e595-4703-a8df-6b24679c706e
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 86c64fa2-e595-4703-a8df-6b24679c706e
+Description: Launching a new EC2 instance: i-81503a6f
+Cause: At 2014-10-05T17:45:19Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:45:40.092Z
+EndTime: 2014-10-05T17:46:12.571Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-81503a6f
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:48:11.374Z
+RequestId: df6874a1-8b27-40e5-a2af-9d7f381ab647
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: df6874a1-8b27-40e5-a2af-9d7f381ab647
+Description: Launching a new EC2 instance: i-43513bad
+Cause: At 2014-10-05T17:47:20Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:47:38.645Z
+EndTime: 2014-10-05T17:48:11.374Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-43513bad
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:57:55.486Z
+RequestId: f46af64e-5363-4476-b301-ec24d4879fed
+Event: autoscaling:EC2_INSTANCE_LAUNCH
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: f46af64e-5363-4476-b301-ec24d4879fed
+Description: Launching a new EC2 instance: i-58a8c2b6
+Cause: At 2014-10-05T17:57:21Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 3 to 4.
+StartTime: 2014-10-05T17:57:22.836Z
+EndTime: 2014-10-05T17:57:55.486Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-58a8c2b6
+====================================================================================================
+====================================================================================================
+
+[Terminate]
+====================================================================================================
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:24:39.805Z
+RequestId: 47513f8c-ec98-4899-9c23-9cd1dab567e0
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 47513f8c-ec98-4899-9c23-9cd1dab567e0
+Description: Terminating EC2 instance: i-c8375d26
+Cause: At 2014-10-05T16:23:56Z a monitor alarm scale_down_on_cpu in state ALARM triggered policy scale_down changing the desired capacity from 4 to 3.  At 2014-10-05T16:24:12Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 4 to 3.  At 2014-10-05T16:24:12Z instance i-c8375d26 was selected for termination.
+StartTime: 2014-10-05T16:24:12.486Z
+EndTime: 2014-10-05T16:24:39.805Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-c8375d26
+Details: {"InvokingAlarms":[{"Region":"US - N. Virginia","AWSAccountId":"900670946900","OldStateValue":"OK","AlarmName":"scale_down_on_cpu","AlarmDescription":null,"NewStateReason":"Threshold Crossed: 2 datapoints were less than the threshold (55.0). The most recent datapoints: [50.32, 48.123333333333335].","StateChangeTime":1412526236372,"NewStateValue":"ALARM","Trigger":{"Period":60,"Statistic":"AVERAGE","MetricName":"CPUUtilization","Threshold":55,"EvaluationPeriods":2,"Dimensions":[{"name":"AutoScalingGroupName","value":"my_group"}],"Namespace":"AWS/EC2","ComparisonOperator":"LessThanThreshold","Unit":null}}],"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:30:54.903Z
+RequestId: 08b65c3c-782d-4680-a705-70170b3c495f
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 08b65c3c-782d-4680-a705-70170b3c495f
+Description: Terminating EC2 instance: i-cb375d25
+Cause: At 2014-10-05T16:30:43Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T16:30:43.327Z
+EndTime: 2014-10-05T16:30:54.903Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-cb375d25
+Details: {"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:36:49.268Z
+RequestId: 0866af48-4c3c-41cb-94a9-6391dd26e6fb
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 0866af48-4c3c-41cb-94a9-6391dd26e6fb
+Description: Terminating EC2 instance: i-ca375d24
+Cause: At 2014-10-05T16:36:44Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T16:36:44.105Z
+EndTime: 2014-10-05T16:36:49.268Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-ca375d24
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T16:58:55.331Z
+RequestId: e8ff48a2-4c06-4ea9-b204-13768fd69351
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: e8ff48a2-4c06-4ea9-b204-13768fd69351
+Description: Terminating EC2 instance: i-e0056f0e
+Cause: At 2014-10-05T16:58:45Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T16:58:45.385Z
+EndTime: 2014-10-05T16:58:55.331Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-e0056f0e
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:00:55.216Z
+RequestId: 57efd41c-1798-4286-9967-53a12d5c92fd
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 57efd41c-1798-4286-9967-53a12d5c92fd
+Description: Terminating EC2 instance: i-221c76cc
+Cause: At 2014-10-05T17:00:45Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:00:46.017Z
+EndTime: 2014-10-05T17:00:55.216Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-221c76cc
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:04:54.468Z
+RequestId: 1f6ac9ff-1bf7-416a-8302-e0f91021b851
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 1f6ac9ff-1bf7-416a-8302-e0f91021b851
+Description: Terminating EC2 instance: i-9d127873
+Cause: At 2014-10-05T17:04:46Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:04:46.824Z
+EndTime: 2014-10-05T17:04:54.468Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-9d127873
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:10:54.169Z
+RequestId: 6ae7ae29-11b5-4758-8f33-980470b25508
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 6ae7ae29-11b5-4758-8f33-980470b25508
+Description: Terminating EC2 instance: i-5e157fb0
+Cause: At 2014-10-05T17:10:47Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:10:47.533Z
+EndTime: 2014-10-05T17:10:54.169Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-5e157fb0
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:44:57.194Z
+RequestId: c7c9ccbd-46e1-4d0e-95fd-0afebfb09eca
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: c7c9ccbd-46e1-4d0e-95fd-0afebfb09eca
+Description: Terminating EC2 instance: i-847b116a
+Cause: At 2014-10-05T17:44:49Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:44:49.508Z
+EndTime: 2014-10-05T17:44:57.194Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-847b116a
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:46:59.221Z
+RequestId: 72549b5e-a79a-4dc1-82f4-793bdbd24cdc
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 72549b5e-a79a-4dc1-82f4-793bdbd24cdc
+Description: Terminating EC2 instance: i-c8781226
+Cause: At 2014-10-05T17:46:50Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:46:50.268Z
+EndTime: 2014-10-05T17:46:59.221Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-c8781226
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T17:56:54.132Z
+RequestId: de9e6d77-2b9e-45d4-ab6e-686dbddc397f
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: de9e6d77-2b9e-45d4-ab6e-686dbddc397f
+Description: Terminating EC2 instance: i-96731978
+Cause: At 2014-10-05T17:56:51Z an instance was taken out of service in response to a EC2 health check indicating it has been terminated or stopped.
+StartTime: 2014-10-05T17:56:51.271Z
+EndTime: 2014-10-05T17:56:54.132Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-96731978
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T18:04:11.641Z
+RequestId: 6c012100-b219-4320-b2ca-0e53ed6c9b74
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 6c012100-b219-4320-b2ca-0e53ed6c9b74
+Description: Terminating EC2 instance: i-29761cc7
+Cause: At 2014-10-05T18:02:56Z a monitor alarm scale_down_on_cpu in state ALARM triggered policy scale_down changing the desired capacity from 4 to 3.  At 2014-10-05T18:03:22Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 4 to 3.  At 2014-10-05T18:03:22Z instance i-29761cc7 was selected for termination.
+StartTime: 2014-10-05T18:03:22.178Z
+EndTime: 2014-10-05T18:04:11.641Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-29761cc7
+Details: {"InvokingAlarms":[{"Region":"US - N. Virginia","AWSAccountId":"900670946900","OldStateValue":"ALARM","AlarmName":"scale_down_on_cpu","AlarmDescription":null,"NewStateReason":"Threshold Crossed: 2 datapoints were less than the threshold (55.0). The most recent datapoints: [2.315, 2.2333333333333334].","StateChangeTime":1412531876382,"NewStateValue":"ALARM","Trigger":{"Period":60,"Statistic":"AVERAGE","MetricName":"CPUUtilization","Threshold":55,"EvaluationPeriods":2,"Dimensions":[{"name":"AutoScalingGroupName","value":"my_group"}],"Namespace":"AWS/EC2","ComparisonOperator":"LessThanThreshold","Unit":null}}],"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T18:05:56.221Z
+RequestId: 87772c59-8ba5-4289-a2f1-5f8af0340d96
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 87772c59-8ba5-4289-a2f1-5f8af0340d96
+Description: Terminating EC2 instance: i-81503a6f
+Cause: At 2014-10-05T18:05:40Z a user request force deleted AutoScaling group changing the desired capacity from 3 to 0.  At 2014-10-05T18:05:52Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 3 to 0.  At 2014-10-05T18:05:52Z instance i-81503a6f was selected for termination.  At 2014-10-05T18:05:52Z instance i-43513bad was selected for termination.  At 2014-10-05T18:05:52Z instance i-58a8c2b6 was selected for termination.
+StartTime: 2014-10-05T18:05:52.603Z
+EndTime: 2014-10-05T18:05:56.221Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-81503a6f
+Details: {"Availability Zone":"us-east-1a"}
+---------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T18:05:57.325Z
+RequestId: 5317a586-ba7f-461f-8ce0-4878f46b23b1
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: 5317a586-ba7f-461f-8ce0-4878f46b23b1
+Description: Terminating EC2 instance: i-43513bad
+Cause: At 2014-10-05T18:05:40Z a user request force deleted AutoScaling group changing the desired capacity from 3 to 0.  At 2014-10-05T18:05:52Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 3 to 0.  At 2014-10-05T18:05:52Z instance i-81503a6f was selected for termination.  At 2014-10-05T18:05:52Z instance i-43513bad was selected for termination.  At 2014-10-05T18:05:52Z instance i-58a8c2b6 was selected for termination.
+StartTime: 2014-10-05T18:05:52.829Z
+EndTime: 2014-10-05T18:05:57.325Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-43513bad
+----------------------------------------------------------------------------------------------------
+Service: AWS Auto Scaling
+Time: 2014-10-05T18:06:03.396Z
+RequestId: afe9783d-bac5-421e-9ef0-2318a14614bf
+Event: autoscaling:EC2_INSTANCE_TERMINATE
+AccountId: 900670946900
+AutoScalingGroupName: my_group
+AutoScalingGroupARN: arn:aws:autoscaling:us-east-1:900670946900:autoScalingGroup:6b6cfb77-3cad-4c73-a7d2-e87ea6c84c56:autoScalingGroupName/my_group
+ActivityId: afe9783d-bac5-421e-9ef0-2318a14614bf
+Description: Terminating EC2 instance: i-58a8c2b6
+Cause: At 2014-10-05T18:05:40Z a user request force deleted AutoScaling group changing the desired capacity from 3 to 0.  At 2014-10-05T18:05:52Z an instance was taken out of service in response to a difference between desired and actual capacity, shrinking the capacity from 3 to 0.  At 2014-10-05T18:05:52Z instance i-81503a6f was selected for termination.  At 2014-10-05T18:05:52Z instance i-43513bad was selected for termination.  At 2014-10-05T18:05:52Z instance i-58a8c2b6 was selected for termination.
+StartTime: 2014-10-05T18:05:52.972Z
+EndTime: 2014-10-05T18:06:03.396Z
+StatusCode: InProgress
+StatusMessage:
+Progress: 50
+EC2InstanceId: i-58a8c2b6
+

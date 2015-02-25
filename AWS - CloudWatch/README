@@ -1,0 +1,17 @@
+[NOTE]
+1.  pip install mysql-connector-python
+2.  run the script on each of the launched instance by putting the following
+    commands in /etc/rc.local!
+
+    sudo mkdir /mnt/my_mnt
+    cd /mnt/my_mnt
+    sudo cp -a /home/mysql_backup/* .
+    sudo chown mysql:mysql /mnt/my_mnt
+    sudo service mysql stop
+    sudo mount --bind /mnt/my_mnt /var/lib/mysql
+    sudo service mysql start
+    /usr/bin/python /home/ubuntu/cloudwatch.py &
+    exit 0
+
+3.  create an image based on the above steps for autoscaling group
+4.  That's it !
